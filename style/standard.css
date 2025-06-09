@@ -1,0 +1,133 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    max-width: 1920px !important;
+    display: flex;
+    flex: 1;
+
+}
+
+header {
+    max-width: 1920px !important;
+}
+
+footer {
+    max-width: 1920px !important;
+}
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    flex-direction: row;
+    flex: 1;
+}
+
+.logoHeaderImg {
+    height: 48px;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.logoLastEvent {
+    height: 400px;
+    object-fit: cover;
+}
+
+.paddingTop {
+    padding-top: 96px;
+}
+
+.paddingBottom {
+    padding-bottom: 96px;
+}
+
+.sec01Content {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec02Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.sec03Content {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec01TextContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.widthCancelled {
+    width: fit-content;
+}
+
+.width100vh {
+    width: 100vh;
+    max-width: 540px;
+}
+
+.width100vh:hover {
+    cursor: pointer;
+}
+
+.margin15percent {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.height40VH {
+    height: 40vh;
+}
+
+.quoteName {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+}
+
+q {
+    font-size: 24px;
+    text-align: center;
+}
+
+video {
+    height: 520px;
+    width: auto;
+}
+
+.sec04Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialMediaFooter {
+    justify-content: flex-end;
+    gap: 24px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
